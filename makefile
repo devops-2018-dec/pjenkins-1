@@ -8,3 +8,5 @@ prime.o:prime.c
 	gcc -c prime.c
 pallindrome.o:pallindrome.c
 	gcc -c pallindrome.c
+clean:
+	rm -rf *
